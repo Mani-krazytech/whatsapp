@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+out/
+
+# dotenv environment variables file
+.env
+
+# Mac OS metadata
+.DS_Store
+
+# Editor specific files
+.vscode/
+.idea/
+
+# Debugging
+*.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Compiled binary addons (if used)
+build/Release
+
+# Production build output
+__sapper__/build
+__sapper__/export
+
+# Yarn integrity file
+.yarn-integrity
+
+# Coverage directory used by tools like Istanbul
+coverage/
+
+# Compiled TypeScript files
+*.tsbuildinfo
